@@ -70,7 +70,7 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    max-height: 900px; 
+    /* max-height: 900px;  */
     max-width: 330px;
     margin: auto;
     padding: 0;
