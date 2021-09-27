@@ -2,49 +2,63 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- skeleton css cdn for fast creation of rough outline -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+   -->
   <title>Frontend Mentor | Single Price Grid Component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-  Join our community
 
-  30-day, hassle-free money back guarantee
+<div class="container">
+  <div class="join">
+    <h2>Join our community</h2> 
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
+    <h3>30-day, hassle-free money back guarantee</h3>  
 
-  Monthly Subscription
+  <p>Gain access to our full library of tutorials along with expert code reviews. 
+   <span>Perfect for any developers who are serious about honing their skills.</span> </p> 
+  </div>
 
-  &dollar;29 per month
+  <div class="offer">
+  <h2>Monthly Subscription</h2>  
 
-  Full access for less than &dollar;1 a day
+  <h1 id="price">&dollar;29<span id="pricespan">per month</span></h1> 
 
-  Sign Up
+  <p>Full access for less than &dollar;1 a day</p> 
 
-  Why Us
+  <a href="#">Sign Up</a> 
+  </div>
 
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
+  <div class="whyus">
+  <h2>Why Us</h2>  
   
-  <footer>
+    <p>Tutorials by industry experts</p>  
+    <p>Peer &amp; expert code review</p> 
+    <p>Coding exercises</p> 
+    <p>Access to our GitHub repos</p> 
+    <p>Community forum</p> 
+    <p>Flashcard decks</p> 
+    <p>New videos every week</p> 
+  
+  </div>
+</div>
+  
+  <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
 </body>
 </html>
