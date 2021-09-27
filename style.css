@@ -60,7 +60,7 @@ body{
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1rem 1fr 1rem;
+    grid-template-rows: 1rem 1fr 3rem;
     background-color: var(--GrayishBlue);
 }
 
@@ -132,7 +132,7 @@ div{
 }
 
 /* button */
-a{
+.offer a{
     text-decoration: none;
     color: white;
     font-size: 1.25rem;
@@ -181,4 +181,8 @@ a{
     div{
         padding: 1.75rem;
     }
+}
+
+footer{
+    grid-row: 3;
 }
